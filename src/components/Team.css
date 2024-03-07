@@ -1,0 +1,9 @@
+.team{
+    grid-column: 1/2;
+}
+.team h2 {
+    margin-bottom: 1rem;
+}
+.team__card > article{
+    margin-top: 1.5rem;
+}

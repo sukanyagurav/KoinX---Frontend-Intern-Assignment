@@ -1,0 +1,23 @@
+.breadCrumbs{
+    display: flex;
+    gap: 2.5rem;
+    padding: 1em 0;
+}
+.breadCrumbs li{
+    position: relative;
+}
+.breadCrumbs li::after {
+    position: absolute;
+    content:'>>';
+    top: 0;
+    left: 110%;
+    width: 100%;
+    height: 100%;
+    color:#4a646e;
+}
+.breadCrumbs li.active{
+    font-weight: 700;
+}
+.breadCrumbs li.active::after{
+    content: '';
+}
